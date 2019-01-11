@@ -5,7 +5,7 @@
 
 
 unsigned int sdk_init(unsigned int argc, char args[][10]){
-    printf = (int (*)(const char* format, ...))(0x8000283c);
+    printf = (int (*)(const char* format, ...))(0x800036b8);
     unsigned int ret = main(argc,args);
     return ret;
     // TRANSFORM((unsigned int)main,0,0);
