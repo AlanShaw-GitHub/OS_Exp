@@ -1,4 +1,4 @@
-OBJS := init.o ls.o myvi.o
+OBJS := init.o
 DIRS :=
 
 include $(SUB_MAKE_INCLUDE)
